@@ -1,0 +1,156 @@
+/* Body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("travel.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Header */
+header {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo-section h2 {
+    color: white;
+    margin: 0;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: orange;
+    border-radius: 5px;
+}
+
+/* Banner */
+.banner {
+    text-align: center;
+    color: white;
+    padding: 120px 20px;
+}
+
+.banner h1 {
+    font-size: 50px;
+}
+
+.banner p {
+    font-size: 22px;
+}
+
+/* Container */
+.container {
+    background: rgba(255,255,255,0.9);
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container h2 {
+    color: #004080;
+}
+
+/* Cards Container */
+.places {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Individual Card */
+.card {
+    width: 300px;
+    background: rgba(255,255,255,0.9);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    transition: 0.4s;
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    color: #003366;
+}
+
+.card p {
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Follow Us Section */
+.footer-box h3 {
+    color: orange;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.footer-box p {
+    margin: 10px 0;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-box p:hover {
+    color: orange;
+    transform: translateX(5px);
+}
+
+/* Copyright Section */
+.copyright {
+    text-align: center;
+    background-color: #00152e;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.copyright p {
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
